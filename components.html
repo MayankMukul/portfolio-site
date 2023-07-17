@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Components</title>
-    <style src="style.html;"></style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>components</h1>
@@ -12,51 +12,69 @@
 
     <h2>@topography</h2>
     <p>This is a sample paragraph</p>
-    this is small text
+    <small>this is small text</small>
+    <p>this ia a <strong>bold</strong> text </p> 
     <hr>
 
     <h2>@containers</h2>
-    <h3>fluid containers</h3>
-    <p>this is a sample for fluid container</p>
+    <div class="container ">
+        <h3>fluid containers</h3>
+        <p>this is a sample for fluid container Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aspernatur blanditiis temporibus possimus quis, amet architecto! Quasi, omnis! Delectus itaque rem atque deserunt libero ab, temporibus veritatis numquam voluptatem voluptatibus!</p>
+    </div>
     
-    <h2>center container</h2>
-    <p>this is a sample for center container</p>
+    <div class="container container-center">
+        <h3>center container</h3>
+    <p>this is a sample for center container Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut accusamus omnis molestiae praesentium reprehenderit ratione, dolorem dicta, temporibus laboriosam asperiores. Sunt vel facilis itaque perspiciatis nobis repellendus quam libero.</p>
+
+    </div>
+    
     <hr>
 
     <h2>@links</h2>
-    <a href="">primary links</a>
-    <a href="">secondary links</a>
+    <a class="link link-primary">Primary Link</a>
+    <a class="link link-secondary">Secondary Links</a>
+    
     <hr>
 
     <h2>@lists</h2>
-    <ul>unordered lists
+    <h3>unordered lists</h3>
+    <ul class="list-non-bullet">
         <li>one</li>
         <li>two</li>
         <li>three</li>
     </ul>
 
-    <ul> 
-        inline lists
-        <li>one </li>
-        <li>two</li>
-        <li> three  </li>
+    <h3>inline lists</h3>
+    <ul class="list-non-bullet" > 
+        <li class="list-inline">inline one </li>
+        <li class="list-inline">inline two</li>
+        <li class="list-inline">inline three  </li>
     </ul>
 
-    <ul>
-        reverse order
+    <h3>reverse order</h3>
+    <ol reversed>
         <li>one</li>
         <li>two</li>
         <li>three</li>
-    </ul>
+    </ol>
     <hr>
 
     <h2>@navbar</h2>
-    <b>I AM BRAND  NAME</b>
-    <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
+    <nav class="navigation">
+        <div class="nav-bar">
+            I AM BRAND  NAME
+        </div>
+       <div class="nav-right">
+        <ul class="list-non-bullet ">
+            <li class="list-inline link link-active"><a class="link">Home</a></li>
+            <li class="list-inline link"><a class="link">Project</a></li>
+            <li class="list-inline link"><a class="link">Blogs</a></li> 
+        </ul>
+       </div>
+        
+
+        
+    </nav>
     <hr>
 
     <h2>@header</h2>
