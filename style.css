@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 :root{
-    --primary-color: #72EDFF
+    --primary-color: #72EDFF ;
+    --dark-grey: #52525b;
+    --off-white: #f3f4f6;
+    --black: #020617;
 }
 
 body{
     font-family: 'Noto Sans', sans-serif;
-
+    margin: 0px;
 }
 
 hr{
@@ -66,4 +69,56 @@ hr{
 
 .link-active {
     font-weight: bold;
+}
+
+.header {
+padding: 2rem;
+}
+
+.header .header-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-heading {
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+.header .header-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+    
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.section .section-normal {
+    
+}
+
+.section-off-white {
+    background-color: var(--off-white) ;
+    padding: 1rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+}
+
+.footer .link {
+    color: var(--black);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }

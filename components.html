@@ -31,8 +31,8 @@
     <hr>
 
     <h2>@links</h2>
-    <a class="link link-primary">Primary Link</a>
-    <a class="link link-secondary">Secondary Links</a>
+    <a class="link link-primary" href="">Primary Link</a>
+    <a class="link link-secondary" href="">Secondary Links</a>
     
     <hr>
 
@@ -78,29 +78,39 @@
     <hr>
 
     <h2>@header</h2>
-    <img src="sample.svg" alt="hero loading...">
-    <h3>this is a header heading</h3>
+    <div class="header">
+        <img src="sample.svg" class="header-image" alt="hero loading...">
+        <h3 class="header-heading">this is a <span class="heading-inverted">header</span> heading</h3>
+        </div>
     <hr>
 
     <h2>@section</h2>
-    <h3>normal section</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Quis eligendi, iusto sapiente quos ipsum maiores alias fugit nobis. 
-         Magnam possimus numquam quasi ut eum laboriosam commodi quibusdam? Illum, ut libero.</p>
-
-    <h3>off white section</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum error voluptatem consectetur
-         laboriosam quis corrupti dolorem asperiores eos alias expedita? Aperiam sequi nisi hic optio 
-         aliquam provident deleniti, sint ex!</p>
-    <hr>
+    <div class="section">
+        <div class="normal-section container-center">
+            <h3 >normal section</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quis eligendi, iusto sapiente quos ipsum maiores alias fugit nobis.
+            Magnam possimus numquam quasi ut eum laboriosam commodi quibusdam? Illum, ut libero.</p>
+        
+        </div>
+        <div class="section-off-white container-center">
+            <h3>off white section</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum error voluptatem consectetur
+            laboriosam quis corrupti dolorem asperiores eos alias expedita? Aperiam sequi nisi hic optio
+            aliquam provident deleniti, sint ex!</p>
+        </div>
+        
+    </div>
+    
+     <hr>
 
     <h2>@footer</h2>
-    <div>
+    <div class="footer">
         this text should be bigger and at center
         <ul>
-            <li>inline one</li>
-            <li>inline two</li>
-            <li>inline three</li>
+            <li class="list-non-bullet list-inline"> <a class="link" href="">inline one</a></li>
+            <li class="list-non-bullet list-inline"><a class="link" href="">inline two</a></li>
+            <li class="list-non-bullet list-inline"><a class="link" href="">inline three</a></li>
         </ul>
     </div>
 
