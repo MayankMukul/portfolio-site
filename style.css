@@ -2,7 +2,7 @@
 
 :root{
     --primary-color: #72EDFF ;
-    --dark-grey: #52525b;
+    --dark-grey: #71717a;
     --off-white: #f3f4f6;
     --black: #020617;
 }
@@ -18,8 +18,8 @@ hr{
 }
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
+    
 }
 
 .container-center {
@@ -29,9 +29,10 @@ hr{
 
 .link {
     text-decoration: none;
-    padding: .6rem 1rem;
+    padding: .5rem ;
     border-radius: .5rem;
     color: var(--black);
+    margin-top: 2rem;
     
 }
 
@@ -93,8 +94,8 @@ padding: 2rem;
 }
 
 .section {
-    padding: 2rem;
-    
+    padding: 1rem 2rem;
+    padding-bottom: 4rem;
 }
 
 .section h3 {
@@ -108,7 +109,7 @@ padding: 2rem;
 
 .section-off-white {
     background-color: var(--off-white) ;
-    padding:1rem 2rem 2rem 2rem;
+    padding: 2rem;
 }
 
 .footer {
@@ -117,6 +118,7 @@ padding: 2rem;
     padding: 1rem;
     border-top-right-radius: 2rem;
     font-weight: bold;
+    
 }
 
 .footer .link {
