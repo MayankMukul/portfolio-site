@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 :root{
-    --primary-color: #72EDFF ;
+    --primary-color: #fdf183;
     --dark-grey: #71717a;
     --off-white: #f3f4f6;
     --black: #020617;
@@ -9,15 +9,11 @@
 
 body{
     font-family: 'DM Sans', sans-serif;
-    ;
-    margin: 0px;
+    max-width: 85%;
+    margin: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-hr{
-    margin: 2rem 0rem;
 }
 
 .container{
@@ -26,7 +22,8 @@ hr{
 }
 
 .container-center {
-   max-width: 600px;
+    text-align: center;
+   max-width: 100%;
    margin: auto;
 }
 
@@ -45,6 +42,7 @@ hr{
 
 .link-secondary{
     color: var(--primary-color);
+    background-color: var(--black);
     border: 1px solid;
     border-radius:  0.5rem;
 }
@@ -82,7 +80,8 @@ padding: 2rem;
 }
 
 .header .header-image {
-    max-width: 350px;
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
 }
@@ -90,6 +89,7 @@ padding: 2rem;
 .header .header-heading {
     color: var(--dark-grey);
     text-align: center;
+    font-size: 2rem;
 }
 
 .header .header-heading .heading-inverted {
@@ -106,13 +106,13 @@ padding: 2rem;
 }
 
 .section-normal {
-   
-    padding:  2rem;
+    padding: 1rem 3rem 3rem 3rem;
 }
 
 .section-off-white {
     background-color: var(--off-white) ;
-    padding: 2rem;
+    padding: 1rem 3rem 3rem 3rem;
+   
 }
 
 .footer {
